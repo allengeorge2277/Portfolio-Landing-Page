@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+nav {
+    background: black;
+    width: 100%;
+    padding: 10px 0px;
+    position: relative;
+    z-index: 12px;
+}
+
+nav .menu {
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .logo {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-flex;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 5px;
+    padding: 10px 18px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.menu ul li a:hover {
+    background-color: white;
+    color: black;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.img {
+    background: url(image.jpeg) no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.img::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.3);
+}
+
+.center {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.center .texts {
+    font-size: 55px;
+    font-weight: 400;
+    color: white;
+}
+
+.center .btns {
+    padding: 10px 0px;
+}
+
+.center .btns button {
+    margin: 0px 10px;
+}
+
+.center .btns .btn1 {
+    font-size: 20px;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-radius: 3px;
+    background: none;
+    padding: 8px 20px;
+}
+
+.center .btns .btn1:hover {
+    background-color: white;
+    color: black;
+    transform: all 0.3s ease;
+    cursor: pointer;
+}
+
+.center .btns .btn2 {
+    font-size: 20px;
+    background: white;
+    border-style: none;
+    border-radius: 3px;
+    padding: 8px 20px;
+    cursor: pointer;
+}
