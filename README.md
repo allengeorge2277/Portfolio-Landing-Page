@@ -4,4 +4,4 @@ This is a portfolio home page created with HTML and CSS as a part of upskilling 
 
 Check out the website at: https://allengeorge2277.github.io/Portfolio-Landing-Page/  
 
-Feedback and additions are accepted.
+Feedbacks and additional changes are accepted.
